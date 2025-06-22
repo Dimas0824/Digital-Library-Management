@@ -37,7 +37,7 @@
 
     <nav class="navbar navbar-expand-lg bg-white shadow-sm border-bottom fixed-top">
         <div class="container">
-            <a class="navbar-brand fw-bold fs-4 text-primary" href="index.php">
+            <a class="navbar-brand fw-bold fs-4 text-primary" href="/LatihanVSGA/Digital Library Management/index.php">
                 <i class="bi bi-book-fill me-2"></i>Digital Library
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -101,7 +101,8 @@
                         </li>
                     <?php else: ?>
                         <li class="nav-item me-2">
-                            <a class="btn btn-outline-primary btn-sm" href="pages/user/login.php">
+                            <a class="btn btn-outline-primary btn-sm"
+                                href="/LatihanVSGA/Digital Library Management/pages/user/login.php">
                                 <i class="bi bi-box-arrow-in-right me-1"></i>Login
                             </a>
                         </li>
