@@ -1,7 +1,7 @@
 // Enhanced JavaScript validation for registration form
 document.addEventListener('DOMContentLoaded', function () {
     const form = document.getElementById('registerForm');
-    const username = document.getElementById('username');
+    const username = document.getElementById('nama');
     const email = document.getElementById('email');
     const password = document.getElementById('password');
     const confirmPassword = document.getElementById('confirm_password');
