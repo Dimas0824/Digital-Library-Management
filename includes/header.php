@@ -48,26 +48,24 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link fw-semibold text-body" href="../../index.php">
+                        <a class="nav-link fw-semibold text-body"
+                            href="/LatihanVSGA/Digital Library Management/index.php">
                             <i class="bi bi-house-door-fill me-1"></i>Home
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fw-semibold text-body" href="../index.php#book-list">
+                        <a class="nav-link fw-semibold text-body"
+                            href="/LatihanVSGA/Digital Library Management/index.php#book-list">
                             <i class="bi bi-journal-bookmark-fill me-1"></i>Buku
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fw-semibold text-body" href="../index.php#about">
+                        <a class="nav-link fw-semibold text-body"
+                            href="/LatihanVSGA/Digital Library Management/index.php#about">
                             <i class="bi bi-info-circle-fill me-1"></i>About
                         </a>
                     </li>
                     <?php if (isset($_SESSION['user_id'])): ?>
-                        <li class="nav-item">
-                            <a class="nav-link fw-semibold text-body" href="pengguna.php">
-                                <i class="bi bi-people-fill me-1"></i>Pengguna
-                            </a>
-                        </li>
                         <li class="nav-item">
                             <a class="nav-link fw-semibold text-body" href="peminjaman.php">
                                 <i class="bi bi-arrow-down-circle-fill me-1"></i>Peminjaman
@@ -108,7 +106,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="btn btn-primary btn-sm text-white fw-semibold" href="register.php">
+                            <a class="btn btn-primary btn-sm text-white fw-semibold" href="pages/user/register.php">
                                 <i class="bi bi-person-plus-fill me-1"></i>Register
                             </a>
                         </li>

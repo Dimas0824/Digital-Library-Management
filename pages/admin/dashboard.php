@@ -1,7 +1,7 @@
 <?php
 require_once '../../process/dashboardAdmin.php';
 
-// Include sidebar (pastikan path benar)
+// Include sidebar
 include_once '../../includes/sidebar.php';
 ?>
 

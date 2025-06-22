@@ -9,17 +9,17 @@ function getDashboardData($conn)
 
     try {
         // Query untuk menghitung total buku
-        $sql_books = "SELECT COUNT(*) as total FROM books";
+        $sql_books = "SELECT COUNT(*) as total FROM buku";
         $result_books = $conn->query($sql_books);
         $dashboardData['total_books'] = $result_books ? $result_books->fetch_assoc()['total'] : 0;
 
         // Query untuk menghitung total pengguna
-        $sql_users = "SELECT COUNT(*) as total FROM users";
+        $sql_users = "SELECT COUNT(*) as total FROM pengguna";
         $result_users = $conn->query($sql_users);
         $dashboardData['total_users'] = $result_users ? $result_users->fetch_assoc()['total'] : 0;
 
         // Query untuk menghitung total transaksi/peminjaman
-        $sql_transactions = "SELECT COUNT(*) as total FROM transactions";
+        $sql_transactions = "SELECT COUNT(*) as total FROM peminjaman";
         $result_transactions = $conn->query($sql_transactions);
         $dashboardData['total_transactions'] = $result_transactions ? $result_transactions->fetch_assoc()['total'] : 0;
 
