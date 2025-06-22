@@ -214,7 +214,7 @@ Terima kasih kepada:
 
 ## 📜 License
 
-Project ini menggunakan lisensi **"Silakan pakai, tapi jangan lupa belajar"** License. Gratis, open source, dan penuh cinta.
+Project ini menggunakan lisensi **"Silakan pakai, tapi jangan lupa belajar"** License. Gratis, dan open source.
 
 ---
 
@@ -222,7 +222,7 @@ Project ini menggunakan lisensi **"Silakan pakai, tapi jangan lupa belajar"** Li
 
 ### 🎯 **Selamat Belajar dan Semoga Berhasil!** 🎯
 
-*Made with* ❤️ *and a lot of* ☕ *by VSGA JWD Enthusiast*
+*Made with* *a lot of* ☕ *by VSGA JWD Enthusiast*
 
 ![Coding GIF](https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif)
 
