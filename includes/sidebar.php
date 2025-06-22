@@ -1,6 +1,3 @@
-<?php
-// sidebar.php - Admin Sidebar Component
-?>
 <nav class="bg-dark text-white vh-100 p-3 position-fixed" style="width: 250px; top: 0; left: 0; z-index: 1000;">
     <div class="d-flex flex-column h-100">
         <!-- Header -->
@@ -10,6 +7,13 @@
 
         <!-- Navigation Menu -->
         <ul class="nav flex-column flex-grow-1">
+            <li class="nav-item mb-2">
+                <a class="nav-link text-white px-3 py-2 rounded hover-bg-secondary d-flex align-items-center"
+                    href="dashboard.php">
+                    <i class="bi bi-house me-2"></i>
+                    Dashboard
+                </a>
+            </li>
             <li class="nav-item mb-2">
                 <a class="nav-link text-white px-3 py-2 rounded hover-bg-secondary d-flex align-items-center"
                     href="kelola_buku.php">
