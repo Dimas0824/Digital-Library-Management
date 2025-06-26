@@ -33,8 +33,8 @@ Aplikasi web berbasis PHP yang memungkinkan Anda mengelola perpustakaan digital 
 ```
 DIGITAL LIBRARY MANAGEMENT/
 ├── 📁 assets/                 # Tempat CSS, JS, dan gambar kece badai
-├── 📁 includes/              # Konfigurasi rahasia (jangan dibocorkan!)
-│   └── 🔧 conn.php          # Jembatan ke database
+├── 📁 includes/              # Konfigurasi rahasia (jangan dibocorkan!, dan komponen wajib)
+│   ├── 🔧 conn.php          # Jembatan ke database
 ├── 📁 Migrations/           # Database setup yang terorganisir
 │   ├── 📁 migration/        # File pembuat tabel ajaib
 │   │   ├── 🪄 create_table_buku.php
